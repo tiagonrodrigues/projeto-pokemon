@@ -1,4 +1,4 @@
-<img src="/main/imagens/pikachu.png" alt="Pikachu" height="225" width="225">
+<img src="/main/imagens/squirtle.png" alt="Squirtle" height="200"> <img src="/main/imagens/charmander.png" alt="Charmander" height="200"> <img src="/main/imagens/bullbasaur.png" alt="Bullbasaur" height="200">
 
 # Project Pokémon T&H
  Projeto de um jogo + site desenvolvido no âmbito da cadeira: Introdução às Tecnologias Web.
