@@ -1,6 +1,6 @@
 <img src="/main/imagens/pikachu.png" alt="Pikachu" height="225" width="225">
 
-# Project Pokémon T&R
+# Project Pokémon T&H
  Projeto de um jogo + site desenvolvido no âmbito da cadeira: Introdução às Tecnologias Web.
 
 A base deste projeto consiste na criação de um site e de um jogo de tabuleiro, baseado no mundo Pokémon, onde existem vários tipos de Pokémons, cada um com imagens, sons e diferentes níveis de força.
