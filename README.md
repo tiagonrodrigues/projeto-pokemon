@@ -1,4 +1,4 @@
-<img src="/imagens/pikachu.png" alt="Pikachu">
+<img src="/main/imagens/pikachu.png" alt="Pikachu">
 
 # Project Pokémon T&R
  Projeto de um jogo + site desenvolvido no âmbito da cadeira: Introdução às Tecnologias Web.
