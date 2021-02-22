@@ -1,4 +1,4 @@
-<img src="/main/imagens/squirtle.png" alt="Squirtle" height="150"> <img src="/main/imagens/charmander.png" alt="Charmander" height="150"> <img src="/main/imagens/bullbasaur.png" alt="Bullbasaur" height="150">
+<img src="/main/imagens/squirtle.png" alt="Squirtle" height="150"> <img src="/main/imagens/charmander.png" alt="Charmander" height="150"> <img src="/main/imagens/bullbasaur.png" alt="Bullbasaur" height="150"> <img src="/main/imagens/jigglypuff.png" alt="Jigglypuff" height="150"> <img src="/main/imagens/meowth.png" alt="Meowth" height="150">
 
 # Project Pokémon T&H
  Projeto de um jogo + site desenvolvido no âmbito da cadeira: Introdução às Tecnologias Web.
