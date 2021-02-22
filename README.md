@@ -1,7 +1,8 @@
 <img src="/main/imgs/squirtle.png" alt="Squirtle" height="150"> <img src="/main/imgs/charmander.png" alt="Charmander" height="150"> <img src="/main/imgs/bullbasaur.png" alt="Bullbasaur" height="150"> <img src="/main/imgs/jigglypuff.png" alt="Jigglypuff" height="150"> <img src="/main/imgs/meowth.png" alt="Meowth" height="150">
 
 # Project Pokémon T&H
- Projeto de um jogo + site desenvolvido no âmbito da cadeira: Introdução às Tecnologias Web.
+
+Projeto de um jogo + site desenvolvido no âmbito da cadeira: Introdução às Tecnologias Web.
 
 A base deste projeto consiste na criação de um site e de um jogo de tabuleiro, baseado no mundo Pokémon, onde existem vários tipos de Pokémons, cada um com imagens, sons e diferentes níveis de força.
 
