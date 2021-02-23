@@ -1,0 +1,77 @@
+@font-face {
+  font-family: Arcade;
+  src: url(font/joystix\ monospace.ttf);
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  background: black;
+  font-family: Arcade;
+  text-align: center;
+}
+
+header .logo a {
+  background-image: url("../imgs/pokeball-logo.png");
+  background-size: 80px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  position: relative;
+  height: 80px;
+  width: 80px;
+  top: -30px;
+  text-indent: -9999999999px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:active {
+  color: aqua;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:link {
+  color: white;
+}
+
+section {
+  font-family: Arcade;
+}
+
+h1 {
+  color: black;
+  margin: 15px;
+}
+
+h2 {
+  color: black;
+  margin: 15px;
+}
+
+nav ul {
+  margin: 0px;
+  padding: 20px;
+  display: inline-block;
+  position: relative;
+  top: 30px;
+  list-style-type: none;
+}
+
+nav li {
+  color: white;
+  margin: 0 25px 0 0;
+  display: inline-block;
+}
