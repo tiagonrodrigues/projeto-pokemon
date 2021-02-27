@@ -51,6 +51,10 @@ section {
   font-family: Arcade;
 }
 
+footer {
+  background: black;
+}
+
 h1 {
   color: black;
   margin: 15px;
