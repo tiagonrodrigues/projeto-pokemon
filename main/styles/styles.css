@@ -1,6 +1,6 @@
 @font-face {
   font-family: Arcade;
-  src: url(font/joystix\ monospace.ttf);
+  src: url(fonts/joystix\ monospace.ttf);
 }
 
 body {
@@ -14,7 +14,7 @@ header {
 }
 
 header .logo a {
-  background-image: url("../imgs/pokeball-logo.png");
+  background-image: url("../images/pokeball-logo.png");
   background-size: 80px;
   background-repeat: no-repeat;
   display: inline-block;
@@ -32,7 +32,7 @@ header .playbutton button {
 }
 
 .container {
-  background: url("../imgs/container-background.png") ;
+  background: url("../images/container-background.png") ;
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
