@@ -1,4 +1,4 @@
-<img src="main/images/charmander.png" alt="Squirtle" height="150"> <img src="main/images/charmander.png" alt="Charmander" height="150"> <img src="main/images/bullbasaur.png" alt="Bullbasaur" height="150"> <img src="main/images/jigglypuff.png" alt="Jigglypuff" height="150"> <img src="main/images/meowth.png" alt="Meowth" height="150">
+<img src="main/images/squirtle.png" alt="Squirtle" height="150"> <img src="main/images/charmander.png" alt="Charmander" height="150"> <img src="main/images/bullbasaur.png" alt="Bullbasaur" height="150"> <img src="main/images/jigglypuff.png" alt="Jigglypuff" height="150"> <img src="main/images/meowth.png" alt="Meowth" height="150">
 
 # Project Pokémon T&H
 
