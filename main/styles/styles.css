@@ -3,6 +3,15 @@
   src: url(fonts/joystix\ monospace.ttf);
 }
 
+@keyframes animate {
+  0% {
+    background-position: 0%;
+  }
+  100%{
+    background-position: 400%;
+  }
+}
+
 body {
   margin: 0px;
 }
@@ -13,7 +22,7 @@ header {
   text-align: left;
 }
 
-header .logo a {
+nav .logo a {
   background-image: url("../images/pokeball-logo.png");
   background-size: 80px;
   background-repeat: no-repeat;
@@ -26,9 +35,25 @@ header .logo a {
   text-indent: -999999999px;
 }
 
-header .playbutton button {
+nav .playbutton button {
   position: relative;
   left: 1250px;
+}
+
+nav .playbutton a{
+  position: absolute;
+  transform: translate(-50%, -50%);
+  width: 165px;
+  line-height: 40px;
+  font-size: 16px;
+  font-family: Arcade;  
+  background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+  background-size: 400%;
+  border-radius: 30px;
+}
+
+nav .playbutton a:hover{
+  animation: animate 8s linear infinite;
 }
 
 .container {
@@ -89,9 +114,9 @@ h2 {
 }
 
 nav ul {
-  display: inline-block;
   position: relative;
-  top: 30px;
+  display: inline-block;
+  top: 28px;
 }
 
 nav li {
