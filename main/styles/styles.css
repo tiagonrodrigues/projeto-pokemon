@@ -56,7 +56,7 @@ nav .playbutton a:hover{
   animation: animate 8s linear infinite;
 }
 
-.container {
+#Home {
   background: url("../images/container-background.png") ;
   background-repeat: no-repeat;
   background-size: cover;
@@ -64,9 +64,9 @@ nav .playbutton a:hover{
   min-height: 100vh;
 }
 
-.container-logo {
+#HomeLogo {
   position: relative;
-  width: 23%;
+  width: 18%;
   top: 60px;
 }
 
