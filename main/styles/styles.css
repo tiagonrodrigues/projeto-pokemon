@@ -125,6 +125,80 @@ section {
   margin: 0; /* A retirar */
 }
 
+#Login {
+  background: url("https://parsec.app/static/background-a8d2dfaa805b19435d697c723e1ed2bd.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  image-rendering: pixelated;
+  min-height: 100vh;
+}
+
+#LoginBox {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  padding: 40px;
+  background: rgba(0, 0, 0, .8);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, .5);
+  border-radius: 10px;
+}
+
+#LoginBox h1 {
+  color: white;
+  text-align: center;
+}
+
+.inputBox{
+  position: relative;
+}
+
+.inputBox input{
+  width: 100%;
+  padding: 10px 0;
+  letter-spacing: 1px;
+  font-size: 15px;
+  color: white;
+  margin: 40px 0 40px 0; 
+  border: none;
+  outline: none;
+  border-bottom: 1px solid white;
+  background: transparent;
+}
+
+.inputBox label{
+  position: absolute;
+  left: 0;
+  padding: 50px 0;
+  letter-spacing: 1px;
+  font-size: 16px;
+  color: white;
+  pointer-events: none;
+  transition: .5s;
+}
+
+.inputBox input:focus ~ label,
+.inputBox input:valid ~ label{
+  top: -18px;
+  left: 0;
+  font-size: 12px;
+  color: rebeccapurple;
+}
+
+#LoginBox input[type=submit] {
+  background: transparent;
+  border: none;
+  outline: none;
+  font-family: Arcade;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 10px;
+  background: rebeccapurple;
+}
+
 footer {
   background: black;
   color: gray;
