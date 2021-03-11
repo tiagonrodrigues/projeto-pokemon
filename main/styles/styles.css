@@ -218,52 +218,63 @@ h2 {
   color: black;
 }
 
+#aboutTeam {
+  background: url("https://i.imgur.com/lLfM33a.gif");
+  min-height: 95vh;
+
+}
+
+#aboutTeam h1 {
+  text-align: center;
+  color: white;
+  text-shadow: black;
+}
+
 #team {
   display: flex;
   text-align: center;
   width: auto;
   justify-content: center;
+  margin-top: 60px;
 }
 
-#team #bio {
+#team .bio {
   background: black;
   margin: 5px;
   margin-bottom: 50px;
   width: 300px;
-  padding: 20px;
+  padding: 30px;
   line-height: 20px;
   position: relative;
   color: white;
+  border-radius: 15px;
 }
 
-#team #bio h3 {
+#team .bio h2 {
   color: #03a9f4;
-  font-size: 26px;
+  letter-spacing: 1px;
+  font-size: 22px;
   margin-top: 50px;
   font-family: Arcade;
 }
 
-#team #bio p#role {
-  font-size: 12px;
+#team .bio .role {
+  font-size: 18px;
+  margin-top: 25px;
   text-transform: uppercase;
-  margin: 12px 0;
   color: #ccc;
   font-family: Arcade;
 }
 
-#team #bio p {
+#team .bio p {
   font-family: Arcade;
+  font-size: 15px;
+  margin-top: 60px;
 }
 
-#team #bio #photo img{
+#team .bio .photo img{
   width: 200px;
   height: 200px;
   border-radius: 50%;
-}
-
-footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
 }
 
