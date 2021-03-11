@@ -107,6 +107,16 @@ a:link {
   padding-top: 100px;
 }
 
+#HomeContent p {
+  font-size: large;
+  font-family: Arcade;
+  margin-top: 100px;
+}
+
+#HomeContent audio {
+  margin-top: 100px;
+}
+
 section {
   font-family: Arcade;
   font-size: larger;
