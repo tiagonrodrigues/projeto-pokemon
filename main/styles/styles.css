@@ -215,3 +215,52 @@ h1 {
 h2 {
   color: black;
 }
+
+#team {
+  display: flex;
+  text-align: center;
+  width: auto;
+  justify-content: center;
+}
+
+#team #bio {
+  background: black;
+  margin: 5px;
+  margin-bottom: 50px;
+  width: 300px;
+  padding: 20px;
+  line-height: 20px;
+  position: relative;
+  color: white;
+}
+
+#team #bio h3 {
+  color: #03a9f4;
+  font-size: 26px;
+  margin-top: 50px;
+  font-family: Arcade;
+}
+
+#team #bio p#role {
+  font-size: 12px;
+  text-transform: uppercase;
+  margin: 12px 0;
+  color: #ccc;
+  font-family: Arcade;
+}
+
+#team #bio p {
+  font-family: Arcade;
+}
+
+#team #bio #photo img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
