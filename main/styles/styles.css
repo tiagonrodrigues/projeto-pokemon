@@ -7,7 +7,7 @@
   0% {
     background-position: 0%;
   }
-  100%{
+  100% {
     background-position: 400%;
   }
 }
@@ -39,7 +39,7 @@ nav .logo a {
   background-size: 80px;
   background-repeat: no-repeat;
   display: inline-block;
-  position: relative; 
+  position: relative;
   height: 80px;
   width: 80px;
   top: -30px;
@@ -52,19 +52,19 @@ nav .playbutton button {
   left: 1250px;
 }
 
-nav .playbutton a{
+nav .playbutton a {
   position: absolute;
   transform: translate(-50%, -50%);
   width: 165px;
   line-height: 40px;
   font-size: 16px;
-  font-family: Arcade;  
+  font-family: Arcade;
   background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
   background-size: 400%;
   border-radius: 30px;
 }
 
-nav .playbutton a:hover{
+nav .playbutton a:hover {
   animation: animate 8s linear infinite;
 }
 
@@ -90,7 +90,7 @@ a:link {
 }
 
 #Home {
-  background: url("../images/container-background.png") ;
+  background: url("../images/container-background.png");
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
@@ -103,7 +103,7 @@ a:link {
   top: 60px;
 }
 
-#HomeContent{
+#HomeContent {
   padding-top: 100px;
 }
 
@@ -113,7 +113,7 @@ section {
   padding-top: 20px;
 }
 
-#AboutGame{
+#AboutGame {
   text-align: center;
 }
 
@@ -121,7 +121,7 @@ section {
   display: inline-block;
 }
 
-#Features figure{
+#Features figure {
   margin: 0; /* A retirar */
 }
 
@@ -140,9 +140,9 @@ section {
   transform: translate(-50%, -50%);
   width: 400px;
   padding: 40px;
-  background: rgba(0, 0, 0, .8);
+  background: rgba(0, 0, 0, 0.8);
   box-sizing: border-box;
-  box-shadow: 0 15px 25px rgba(0, 0, 0, .5);
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
   border-radius: 10px;
 }
 
@@ -151,24 +151,24 @@ section {
   text-align: center;
 }
 
-.inputBox{
+.inputBox {
   position: relative;
 }
 
-.inputBox input{
+.inputBox input {
   width: 100%;
   padding: 10px 0;
   letter-spacing: 1px;
   font-size: 15px;
   color: white;
-  margin: 40px 0 40px 0; 
+  margin: 40px 0 40px 0;
   border: none;
   outline: none;
   border-bottom: 1px solid white;
   background: transparent;
 }
 
-.inputBox label{
+.inputBox label {
   position: absolute;
   left: 0;
   padding: 50px 0;
@@ -176,18 +176,18 @@ section {
   font-size: 16px;
   color: white;
   pointer-events: none;
-  transition: .5s;
+  transition: 0.5s;
 }
 
 .inputBox input:focus ~ label,
-.inputBox input:valid ~ label{
+.inputBox input:valid ~ label {
   top: -18px;
   left: 0;
   font-size: 12px;
   color: rebeccapurple;
 }
 
-#LoginBox input[type=submit] {
+#LoginBox input[type="submit"] {
   background: transparent;
   border: none;
   outline: none;
@@ -205,7 +205,9 @@ footer {
   padding: 15px;
   font-size: 14px;
   text-align: center;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, Courier, monospace;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif, Courier,
+    monospace;
 }
 
 h1 {
@@ -264,3 +266,4 @@ footer {
   bottom: 0;
   width: 100%;
 }
+
