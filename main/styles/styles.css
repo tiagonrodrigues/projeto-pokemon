@@ -147,12 +147,20 @@ section {
 }
 
 #Features {
-  
+  margin-top: 75px;
 }
 
 #Features figure {
   display: inline-block;
-  margin: 10px;
+
+}
+
+#Features figure img {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  box-shadow: gray 0 0 25px;
+  border: 1px solid #fff;
 }
 
 #Features figure figcaption {
@@ -274,14 +282,22 @@ h2 {
 
 #team .bio {
   background: black;
-  margin: 5px;
-  margin-bottom: 50px;
+  margin: 20px;
   width: 300px;
   padding: 30px;
   line-height: 20px;
   position: relative;
   color: white;
   border-radius: 15px;
+}
+
+#team .bio:hover {
+  -webkit-transform: scale(1.05);
+	-moz-transform: scale(1.05);
+	-ms-transform: scale(1.05);
+	-o-transform: scale(1.05);
+	transform: scale(1.05);
+  transition: 0.5s;
 }
 
 #team .bio h2 {
