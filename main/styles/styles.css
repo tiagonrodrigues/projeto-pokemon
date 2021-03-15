@@ -16,7 +16,7 @@ body {
   margin: 0px;
 }
 
-header {
+nav {
   background: black;
   font-family: Arcade;
   text-align: left;
@@ -68,24 +68,27 @@ nav .playbutton a:hover {
   animation: animate 8s linear infinite;
 }
 
-a {
+nav a {
   color: white;
   text-decoration: none;
+  transition: 0.5s;
 }
 
-a:visited {
+nav a:visited {
   text-decoration: none;
 }
 
-a:active {
+nav a:active {
   color: aqua;
 }
 
-a:hover {
+nav a:hover {
   text-decoration: underline;
+  font-size: 110%;
+  transition: 0.5s;
 }
 
-a:link {
+nav a:link {
   color: white;
 }
 
@@ -107,14 +110,30 @@ a:link {
   padding-top: 100px;
 }
 
-#HomeContent p {
-  font-size: large;
+#HomeContent h1 {
+  color: #fff;
   font-family: Arcade;
-  margin-top: 100px;
+  font-size: 38px;
+  font-style: italic;
+  padding: 0px 20px 0px 5px;
+  text-shadow: 2px 2px 5px #000;
+  margin-top: 85px;
+}
+
+#HomeContent p {
+  color: #fff;
+  font-family: Arcade;
+  letter-spacing: 1px;
+  line-height: 150%;
+  font-size: 15px;
+  font-style: italic;
+  padding: 0px 20% 20px;
+  text-shadow: 1px 1px 3px #000;
+  margin-top: 95px;
 }
 
 #HomeContent audio {
-  margin-top: 100px;
+  margin-top: 75px;
 }
 
 section {
@@ -128,11 +147,16 @@ section {
 }
 
 #Features {
-  display: inline-block;
+  
 }
 
 #Features figure {
-  margin: 0; /* A retirar */
+  display: inline-block;
+  margin: 10px;
+}
+
+#Features figure figcaption {
+  margin-top: 10px;
 }
 
 #Login {
