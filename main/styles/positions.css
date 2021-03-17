@@ -169,3 +169,25 @@ footer {
 #team .bio p {
   margin-top: 60px;
 }
+
+.social {
+  display: flex;
+  justify-content: center;
+}
+
+.social ul {
+  padding: 0;
+  margin: 10px 90px;
+  display: flex;
+}
+.social ul li {
+  margin: 0 10px;
+}
+.social ul li .fa {
+  line-height: 50px;
+}
+
+.social ul li a {
+  display: block;
+  text-align: center;
+}

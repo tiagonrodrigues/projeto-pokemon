@@ -109,7 +109,7 @@ section {
 }
 
 #Login {
-  background: url("https://pixelz.cc/wp-content/uploads/2019/12/pokemon-sword-and-shield-sobble-grookey-scorbunny-uhd-4k-wallpaper.jpg");
+  background: url("../images/pokemon-sword-and-shield.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -253,4 +253,43 @@ h2 {
   width: 200px;
   height: 200px;
   border-radius: 50%;
+}
+
+.social ul li {
+  list-style: none;
+}
+
+.social ul li .fa {
+  color: #000000;
+  font-size: 25px;
+  transition: 0.4s;
+}
+
+.social ul li .fa:hover {
+  color: #ffffff;
+}
+
+.social ul li a {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: white;
+  transition: 0.5s;
+  box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+}
+
+.social ul li a:hover {
+  transform: rotate(0deg) skew(0deg) translate(0, -10px);
+}
+
+.social ul li:nth-child(1) a:hover {
+  background-color: #55acee;
+}
+
+.social ul li:nth-child(2) a:hover {
+  background-color: #e4405f;
+}
+
+.social ul li:nth-child(3) a:hover {
+  background-color: #000;
 }
