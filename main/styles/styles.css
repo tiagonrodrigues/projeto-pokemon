@@ -123,8 +123,8 @@ nav a:link {
 #HomeContent p {
   color: #fff;
   font-family: Arcade;
-  letter-spacing: 1px;
-  line-height: 150%;
+  letter-spacing: 2px;
+  line-height: 170%;
   font-size: 15px;
   font-style: italic;
   padding: 0px 20% 20px;
@@ -152,7 +152,6 @@ section {
 
 #Features figure {
   display: inline-block;
-
 }
 
 #Features figure img {
@@ -168,7 +167,7 @@ section {
 }
 
 #Login {
-  background: url("https://parsec.app/static/background-a8d2dfaa805b19435d697c723e1ed2bd.png");
+  background: url("https://pixelz.cc/wp-content/uploads/2019/12/pokemon-sword-and-shield-sobble-grookey-scorbunny-uhd-4k-wallpaper.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   image-rendering: pixelated;
@@ -191,6 +190,7 @@ section {
 #LoginBox h1 {
   color: white;
   text-align: center;
+  text-shadow: 2px 2px 5px #000;
 }
 
 .inputBox {
@@ -203,7 +203,7 @@ section {
   letter-spacing: 1px;
   font-size: 15px;
   color: white;
-  margin: 40px 0 40px 0;
+  margin: 40px 0 0px 0;
   border: none;
   outline: none;
   border-bottom: 1px solid white;
@@ -229,7 +229,30 @@ section {
   color: rebeccapurple;
 }
 
+#LoginBox .forgotPassw a {
+  font-size: 12px;
+  line-height: 60px;
+  font-style: italic;
+  text-shadow: 1px 1px 3px #000;
+  color: aqua;
+}
+
+#LoginBox .createAcc {
+  line-height: 100px;
+  text-align: center;
+  font-size: 13px;
+  color: white;
+}
+
+#LoginBox .createAcc a{
+  font-style: italic;
+  text-shadow: 1px 1px 3px #000;
+  color: aqua;
+}
+
 #LoginBox input[type="submit"] {
+  font-size: 16px;
+  width: 100%;
   background: transparent;
   border: none;
   outline: none;
@@ -238,7 +261,9 @@ section {
   padding: 10px 20px;
   cursor: pointer;
   border-radius: 10px;
-  background: rebeccapurple;
+  background: linear-gradient(90deg, #ffeb3b, #03a9f4);
+  margin-top: 20px;
+  text-shadow: 1px 1px 3px #000;
 }
 
 footer {
