@@ -12,51 +12,27 @@
   }
 }
 
-body {
-  margin: 0px;
-}
-
 nav {
   background: black;
   font-family: Arcade;
   text-align: left;
 }
 
-nav ul {
-  position: relative;
-  display: inline-block;
-  top: 28px;
-}
-
 nav li {
   color: white;
-  margin: 0 10px 0 0;
-  display: inline-block;
 }
 
 nav .logo a {
   background-image: url("../images/pokeball-logo.png");
   background-size: 80px;
   background-repeat: no-repeat;
-  display: inline-block;
-  position: relative;
   height: 80px;
   width: 80px;
-  top: -30px;
-  left: -15px;
   text-indent: -999999999px;
 }
 
-nav .playbutton button {
-  position: relative;
-  left: 1250px;
-}
-
 nav .playbutton a {
-  position: absolute;
-  transform: translate(-50%, -50%);
   width: 165px;
-  line-height: 40px;
   font-size: 16px;
   font-family: Arcade;
   background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
@@ -96,18 +72,10 @@ nav a:link {
   background: url("../images/container-background.png");
   background-repeat: no-repeat;
   background-size: cover;
-  text-align: center;
-  min-height: 100vh;
 }
 
 #HomeLogo {
-  position: relative;
   width: 18%;
-  top: 60px;
-}
-
-#HomeContent {
-  padding-top: 100px;
 }
 
 #HomeContent h1 {
@@ -115,43 +83,21 @@ nav a:link {
   font-family: Arcade;
   font-size: 38px;
   font-style: italic;
-  padding: 0px 20px 0px 5px;
   text-shadow: 2px 2px 5px #000;
-  margin-top: 85px;
 }
 
 #HomeContent p {
   color: #fff;
   font-family: Arcade;
   letter-spacing: 2px;
-  line-height: 170%;
   font-size: 15px;
   font-style: italic;
-  padding: 0px 20% 20px;
   text-shadow: 1px 1px 3px #000;
-  margin-top: 95px;
-}
-
-#HomeContent audio {
-  margin-top: 75px;
 }
 
 section {
   font-family: Arcade;
   font-size: larger;
-  padding-top: 20px;
-}
-
-#AboutGame {
-  text-align: center;
-}
-
-#Features {
-  margin-top: 75px;
-}
-
-#Features figure {
-  display: inline-block;
 }
 
 #Features figure img {
@@ -162,25 +108,14 @@ section {
   border: 1px solid #fff;
 }
 
-#Features figure figcaption {
-  margin-top: 10px;
-}
-
 #Login {
   background: url("https://pixelz.cc/wp-content/uploads/2019/12/pokemon-sword-and-shield-sobble-grookey-scorbunny-uhd-4k-wallpaper.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  image-rendering: pixelated;
-  min-height: 100vh;
 }
 
 #LoginBox {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   width: 400px;
-  padding: 40px;
   background: rgba(0, 0, 0, 0.8);
   box-sizing: border-box;
   box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
@@ -189,21 +124,14 @@ section {
 
 #LoginBox h1 {
   color: white;
-  text-align: center;
   text-shadow: 2px 2px 5px #000;
-}
-
-.inputBox {
-  position: relative;
 }
 
 .inputBox input {
   width: 100%;
-  padding: 10px 0;
   letter-spacing: 1px;
   font-size: 15px;
   color: white;
-  margin: 40px 0 0px 0;
   border: none;
   outline: none;
   border-bottom: 1px solid white;
@@ -211,9 +139,6 @@ section {
 }
 
 .inputBox label {
-  position: absolute;
-  left: 0;
-  padding: 50px 0;
   letter-spacing: 1px;
   font-size: 16px;
   color: white;
@@ -223,28 +148,23 @@ section {
 
 .inputBox input:focus ~ label,
 .inputBox input:valid ~ label {
-  top: -18px;
-  left: 0;
   font-size: 12px;
   color: rebeccapurple;
 }
 
 #LoginBox .forgotPassw a {
   font-size: 12px;
-  line-height: 60px;
   font-style: italic;
   text-shadow: 1px 1px 3px #000;
   color: aqua;
 }
 
 #LoginBox .createAcc {
-  line-height: 100px;
-  text-align: center;
   font-size: 13px;
   color: white;
 }
 
-#LoginBox .createAcc a{
+#LoginBox .createAcc a {
   font-style: italic;
   text-shadow: 1px 1px 3px #000;
   color: aqua;
@@ -258,20 +178,16 @@ section {
   outline: none;
   font-family: Arcade;
   color: white;
-  padding: 10px 20px;
   cursor: pointer;
   border-radius: 10px;
   background: linear-gradient(90deg, #ffeb3b, #03a9f4);
-  margin-top: 20px;
   text-shadow: 1px 1px 3px #000;
 }
 
 footer {
   background: black;
   color: gray;
-  padding: 15px;
   font-size: 14px;
-  text-align: center;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif, Courier,
     monospace;
@@ -287,41 +203,30 @@ h2 {
 
 #aboutTeam {
   background: url("https://i.imgur.com/lLfM33a.gif");
-  min-height: 95vh;
-
 }
 
 #aboutTeam h1 {
-  text-align: center;
   color: white;
   text-shadow: black;
 }
 
 #team {
-  display: flex;
-  text-align: center;
   width: auto;
-  justify-content: center;
-  margin-top: 60px;
 }
 
 #team .bio {
   background: black;
-  margin: 20px;
   width: 300px;
-  padding: 30px;
-  line-height: 20px;
-  position: relative;
   color: white;
   border-radius: 15px;
 }
 
 #team .bio:hover {
   -webkit-transform: scale(1.05);
-	-moz-transform: scale(1.05);
-	-ms-transform: scale(1.05);
-	-o-transform: scale(1.05);
-	transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  transform: scale(1.05);
   transition: 0.5s;
 }
 
@@ -329,13 +234,11 @@ h2 {
   color: #03a9f4;
   letter-spacing: 1px;
   font-size: 22px;
-  margin-top: 50px;
   font-family: Arcade;
 }
 
 #team .bio .role {
   font-size: 18px;
-  margin-top: 25px;
   text-transform: uppercase;
   color: #ccc;
   font-family: Arcade;
@@ -344,12 +247,10 @@ h2 {
 #team .bio p {
   font-family: Arcade;
   font-size: 15px;
-  margin-top: 60px;
 }
 
-#team .bio .photo img{
+#team .bio .photo img {
   width: 200px;
   height: 200px;
   border-radius: 50%;
 }
-

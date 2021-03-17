@@ -1,0 +1,171 @@
+body {
+  margin: 0px;
+}
+
+nav ul {
+  position: relative;
+  display: inline-block;
+  top: 28px;
+}
+
+nav li {
+  margin: 0 10px 0 0;
+  display: inline-block;
+}
+
+nav .logo a {
+  display: inline-block;
+  position: relative;
+  top: -30px;
+  left: -15px;
+}
+
+nav .playbutton button {
+  position: relative;
+  left: 1250px;
+}
+
+nav .playbutton a {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  line-height: 40px;
+}
+
+#Home {
+  text-align: center;
+  min-height: 100vh;
+}
+
+#HomeLogo {
+  position: relative;
+  top: 60px;
+}
+
+#HomeContent {
+  padding-top: 100px;
+}
+
+#HomeContent h1 {
+  padding: 0px 20px 0px 5px;
+  margin-top: 85px;
+}
+
+#HomeContent p {
+  line-height: 170%;
+  padding: 0px 20% 20px;
+  margin-top: 95px;
+}
+
+#HomeContent audio {
+  margin-top: 75px;
+}
+
+section {
+  padding-top: 20px;
+}
+
+#AboutGame {
+  text-align: center;
+}
+
+#Features {
+  margin-top: 75px;
+}
+
+#Features figure {
+  display: inline-block;
+}
+
+#Features figure figcaption {
+  margin-top: 10px;
+}
+
+#Login {
+  min-height: 100vh;
+}
+
+#LoginBox {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 40px;
+}
+
+#LoginBox h1 {
+  text-align: center;
+}
+
+.inputBox {
+  position: relative;
+}
+
+.inputBox input {
+  padding: 10px 0;
+  margin: 40px 0 0px 0;
+}
+
+.inputBox label {
+  position: absolute;
+  left: 0;
+  padding: 50px 0;
+}
+
+.inputBox input:focus ~ label,
+.inputBox input:valid ~ label {
+  top: -18px;
+  left: 0;
+}
+
+#LoginBox .forgotPassw a {
+  line-height: 60px;
+}
+
+#LoginBox .createAcc {
+  line-height: 100px;
+  text-align: center;
+}
+
+#LoginBox input[type="submit"] {
+  padding: 10px 20px;
+  margin-top: 20px;
+}
+
+footer {
+  padding: 15px;
+  text-align: center;
+}
+
+#aboutTeam {
+  min-height: 95vh;
+}
+
+#aboutTeam h1 {
+  text-align: center;
+}
+
+#team {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+#team .bio {
+  margin: 20px;
+  padding: 30px;
+  line-height: 20px;
+  position: relative;
+}
+
+#team .bio h2 {
+  margin-top: 50px;
+}
+
+#team .bio .role {
+  margin-top: 25px;
+}
+
+#team .bio p {
+  margin-top: 60px;
+}
