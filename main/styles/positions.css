@@ -2,6 +2,10 @@ body {
   margin: 0px;
 }
 
+nav {
+  text-align: left;
+}
+
 nav ul {
   position: relative;
   display: inline-block;
@@ -18,6 +22,7 @@ nav .logo a {
   position: relative;
   top: -30px;
   left: -15px;
+  text-indent: -999999999px;
 }
 
 nav .playbutton button {
@@ -31,60 +36,79 @@ nav .playbutton a {
   line-height: 40px;
 }
 
-#Home {
-  text-align: center;
-  min-height: 100vh;
-}
-
-#HomeLogo {
-  position: relative;
-  top: 60px;
-}
-
-#HomeContent {
-  padding-top: 100px;
-}
-
-#HomeContent h1 {
-  padding: 0px 20px 0px 5px;
-  margin-top: 85px;
-}
-
-#HomeContent p {
-  line-height: 170%;
-  padding: 0px 20% 20px;
-  margin-top: 95px;
-}
-
-#HomeContent audio {
-  margin-top: 75px;
-}
-
 section {
   padding-top: 20px;
 }
 
-#AboutGame {
+#home {
   text-align: center;
-}
-
-#Features {
-  margin-top: 75px;
-}
-
-#Features figure {
-  display: inline-block;
-}
-
-#Features figure figcaption {
-  margin-top: 10px;
-}
-
-#Login {
   min-height: 100vh;
 }
 
-#LoginBox {
+#homeLogo {
+  position: relative;
+  top: 20px;
+}
+
+#homeContent {
+  padding-top: 100px;
+}
+
+#homeContent h1 {
+  padding: 0px 20px 0px 5px;
+}
+
+#homeContent p {
+  line-height: 170%;
+  padding: 0px 20% 20px;
+  margin-top: 80px;
+}
+
+#homeContent audio {
+  margin-top: -25px;
+}
+
+#aboutGame {
+  text-align: center;
+}
+
+#aboutGame p {
+  margin-top: 40px;
+  line-height: 25px;
+  padding: 0px 20% 20px;
+}
+
+#aboutGame h3 {
+  margin-top: 50px;
+}
+
+.descBox {
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gameDesc {
+  padding: 0px 20% 20px;
+}
+
+#features {
+  margin-top: 40px;
+}
+
+#features figure {
+  display: inline-block;
+}
+
+#features figure figcaption {
+  margin-top: 10px;
+}
+
+#login {
+  min-height: 100vh;
+}
+
+#loginBox {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -92,7 +116,7 @@ section {
   padding: 40px;
 }
 
-#LoginBox h1 {
+#loginBox h1 {
   text-align: center;
 }
 
@@ -117,23 +141,18 @@ section {
   left: 0;
 }
 
-#LoginBox .forgotPassw a {
+#loginBox .forgotPassw a {
   line-height: 60px;
 }
 
-#LoginBox .createAcc {
+#loginBox .createAcc {
   line-height: 100px;
   text-align: center;
 }
 
-#LoginBox input[type="submit"] {
+#loginBox input[type="submit"] {
   padding: 10px 20px;
   margin-top: 20px;
-}
-
-footer {
-  padding: 15px;
-  text-align: center;
 }
 
 #aboutTeam {
@@ -155,7 +174,6 @@ footer {
   margin: 20px;
   padding: 30px;
   line-height: 20px;
-  position: relative;
 }
 
 #team .bio h2 {
@@ -189,5 +207,10 @@ footer {
 
 .social ul li a {
   display: block;
+  text-align: center;
+}
+
+footer {
+  padding: 15px;
   text-align: center;
 }
