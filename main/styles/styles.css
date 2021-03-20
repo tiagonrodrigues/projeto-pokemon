@@ -126,6 +126,12 @@ section {
   text-shadow: 2px 2px 5px grey;
 }
 
+#aboutGame video{
+  width: 50%;
+  border-radius: 10px;
+  box-shadow: gray 0 0 25px;
+}
+
 .descBox {
   border: 5px green solid;
   border-radius: 10px;
@@ -307,6 +313,7 @@ section {
 .social ul li:nth-child(3) a:hover {
   background-color: #000;
 }
+
 
 footer {
   background: black;

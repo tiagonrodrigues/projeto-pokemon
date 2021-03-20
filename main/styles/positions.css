@@ -79,7 +79,11 @@ section {
 }
 
 #aboutGame h3 {
-  margin-top: 50px;
+  margin-top: 2cm;
+}
+
+#aboutGame video{
+  margin-bottom: 2cm;
 }
 
 .descBox {
@@ -214,3 +218,4 @@ footer {
   padding: 15px;
   text-align: center;
 }
+
