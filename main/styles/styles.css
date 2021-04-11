@@ -211,7 +211,7 @@ section {
 }
 
 #wiki {
-  background: url(../images/pokeballBackground.jpg);
+  background: url("../images/pokeballBackground.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -329,7 +329,7 @@ section {
 }
 
 #aboutTeam {
-  background: url(https://i.imgur.com/lLfM33a.gif);
+  background: url("https://i.imgur.com/lLfM33a.gif");
 }
 
 #aboutTeam h1 {
