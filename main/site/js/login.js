@@ -6,7 +6,7 @@ function validar(){
     
     if ( username == "user" && password == "1234"){
         alert ("Login com sucesso!!");
-        //window.location = "success.html";
+        //window.location = "success.html"; //colocar a pagina depois de fazer o login
         return false;
     }
     else{
