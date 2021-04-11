@@ -145,7 +145,7 @@ section {
   text-align: center;
 }
 
-#loginBox input[type="submit"] {
+#loginBox .botao {
   padding: 10px 20px;
   margin-top: 20px;
 }
