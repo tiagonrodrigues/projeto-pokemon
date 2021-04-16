@@ -321,5 +321,21 @@ footer {
 
  #progressBar{
    justify-content: center;
-   width: 100%;
+   width: 80%;
  }
+
+ #game {
+  background: url("../images/container-background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 90vh;
+  text-align: center;
+}
+
+#game h1 {
+  color: #fff;
+  font-family: Arcade;
+  font-size: 38px;
+  font-style: italic;
+  text-shadow: 2px 2px 5px #000;
+}
