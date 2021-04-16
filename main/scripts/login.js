@@ -6,7 +6,7 @@ function validar(){
     
     if ( username == "user" && password == "1234"){
         alert ("Login com sucesso!!");
-        //window.location = "success.html"; //colocar a pagina depois de fazer o login
+        window.open("../pages/game.html")
         return false;
     }
     else{
@@ -21,3 +21,12 @@ function validar(){
         }
     }
 }
+
+var timeleft = 10;
+var downloadTimer = setInterval(function(){
+  if(timeleft <= 0){
+    clearInterval(downloadTimer);
+  }
+  document.getElementById("progressBar").value = 10 - timeleft;
+  timeleft -= 1;
+}, 1000);
