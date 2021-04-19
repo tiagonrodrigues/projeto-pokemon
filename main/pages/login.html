@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="shortcut icon"
-      href="../../images/ultraBall.ico"
+      href="../images/ultraBall.ico"
       type="image/x-icon"
     />
-    <link rel="stylesheet" href="../../styles/styles.css" />
-    <link rel="stylesheet" href="../../styles/positions.css" />
+    <link rel="stylesheet" href="../styles/styles.css" />
+    <link rel="stylesheet" href="../styles/positions.css" />
+    <script src="../scripts/login.js"></script>
     <title>Pokémon T&H | Login</title>
   </head>
   <body>
@@ -31,17 +32,25 @@
         <h1>Login</h1>
         <form>
           <div class="inputBox">
-            <input type="text" required="" />
+            <input type="text" required="" id="username" />
             <label>Username</label>
           </div>
           <div class="inputBox">
-            <input type="password" required="" />
+            <input type="password" required="" id="password" />
             <label>Password</label>
           </div>
           <div class="forgotPassw"><a href="#">Forgot Password?</a></div>
-          <input type="submit" value="Gotta Catch 'Em All" />
+          <button
+            class="botao"
+            type="submit"
+            onclick="validar()"
+            id="submit"
+            value="Gotta Catch 'Em All"
+          >
+            Gotta Catch 'Em All
+          </button>
           <div class="createAcc">
-            Not a Trainer? <a href="../pages/register.html">Sign Up Now</a>
+            Not a Trainer? <a href="register.html">Sign Up Now</a>
           </div>
         </form>
       </div>
