@@ -21,11 +21,11 @@ function validar() {
   }
 }
 
-var timeleft = 10;
+var timeleft = 70;
 var downloadTimer = setInterval(function () {
   if (timeleft <= 0) {
     clearInterval(downloadTimer);
   }
-  document.getElementById("progressBar").value = 10 - timeleft;
+  document.getElementById("progressBar").value = 70 - timeleft;
   timeleft -= 1;
 }, 1000);
