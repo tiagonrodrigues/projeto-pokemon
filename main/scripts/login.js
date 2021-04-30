@@ -1,24 +1,25 @@
-var tentativa = 3;
+window.localStorage
 
+// check if stored data from register-form is equal to entered data in the   login-form
 function validar() {
-  var username = document.getElementById("username").value;
-  var password = document.getElementById("password").value;
 
-  if (username == "user" && password == "1234") {
-    alert("Login com sucesso!!");
-    window.open("../pages/game.html");
-    return false;
-  } else {
-    tentativa--;
-    alert("Ainda tens " + tentativa + " tentativas");
+    // stored data from the register-form
+    var storedName = localStorage.getItem('username');
+    var storedPw = localStorage.getItem('pw');
 
-    if (attempt == 0) {
-      document.getElementById("username").disabled = true;
-      document.getElementById("password").disabled = true;
-      document.getElementById("submit").disabled = true;
-      return false;
+    // entered data from the login-form
+    var userName = document.getElementById('username');
+    var userPw = document.getElementById('password');
+
+    if(userName.value == storedName && userPw.value == storedPw)
+    {
+      alert('You are loged in.');
+      window.open("../pages/game.html")
     }
-  }
+    else 
+    {
+      alert('ERROR.');
+    }
 }
 
 var timeleft = 70;
