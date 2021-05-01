@@ -13,7 +13,7 @@ function validar() {
 
     if(userName.value == storedName && userPw.value == storedPw)
     {
-      alert('You are loged in.');
+      alert('You are logged in.');
       window.open("../pages/game.html")
     }
     else 
