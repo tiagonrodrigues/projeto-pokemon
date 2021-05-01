@@ -18,6 +18,6 @@ function validar() {
     }
     else 
     {
-      alert('Please check your credentials, and try again.');
+      alert('Your username or password may be incorrect, please try again.');
     }
 }
