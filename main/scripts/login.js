@@ -14,10 +14,10 @@ function validar() {
     if(userName.value == storedName && userPw.value == storedPw)
     {
       alert('You are logged in.');
-      window.open("../pages/game.html")
+      window.open("../pages/gamemode.html");
     }
     else 
     {
-      alert('ERROR.');
+      alert('Please check your credentials, and try again.');
     }
 }

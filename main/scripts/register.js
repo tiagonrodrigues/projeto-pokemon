@@ -7,4 +7,5 @@ function store() {
   localStorage.setItem("username", username.value);
   localStorage.setItem("pw", pw.value);
   alert("Success! Account created.");
+  window.open("../pages/login.html");
 }
