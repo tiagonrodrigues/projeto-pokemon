@@ -8,7 +8,7 @@ function store() {
   var Local_pw = localStorage.getItem("pw");
 
   try {
-    if (username.value == "" && p.value == "") throw "Fields empty!";
+    if (username.value == "" && pw.value == "") throw "Fields empty!";
     if (username.value == "") throw "Username empty!";
     if (pw.value == "") throw "Password empty!";
     if (username.value == Local_user) throw "The username already exists!";
