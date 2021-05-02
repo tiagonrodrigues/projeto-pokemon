@@ -150,6 +150,10 @@ section {
   margin-top: 20px;
 }
 
+.strengthPassw {
+  margin-top: 10px;
+}
+
 #wiki {
   min-height: 150vh;
   background-attachment: fixed;

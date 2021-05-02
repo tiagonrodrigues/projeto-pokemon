@@ -30,7 +30,7 @@ function passwordChanged() {
   var enoughRegex = new RegExp("(?=.{8,}).*", "g");
   var pw = document.getElementById("pw");
   if (pw.value.length == 0) {
-    strength.innerHTML = 'Type Password';
+    strength.innerHTML = '';
   } else if (false == enoughRegex.test(pw.value)) {
     strength.innerHTML = 'More Characters';
   } else if (strongRegex.test(pw.value)) {

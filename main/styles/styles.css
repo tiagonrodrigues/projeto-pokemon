@@ -210,6 +210,11 @@ section {
   background: linear-gradient(90deg, #ffeb3b, #03a9f4);
 }
 
+.strengthPassw {
+  color: #fff;
+  font-size: 65%;
+}
+
 #wiki {
   background: url("../images/pokeballBackground.jpg");
   background-size: cover;
