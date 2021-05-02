@@ -36,9 +36,10 @@
             <label>Username</label>
           </div>
           <div class="inputBox">
-            <input type="password" required="" id="pw"/>
+            <input type="password" name="password" required="" id="pw" type="text" size="15" maxlength="100" onkeyup="return passwordChanged()" />
             <label>Password</label>
-          </div>
+          </div>       
+          <div class="strengthPassw"><span id="strength">Type Password</span></div>
           <div class="forgotPassw"><a href="#">Forgot Password?</a></div>
           <button
             class="botao"
