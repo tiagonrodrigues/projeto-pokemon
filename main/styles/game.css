@@ -43,3 +43,10 @@
     padding-right: 1em;
     margin: 0 auto;
 }
+
+#gmode {
+  color: #fff;
+  font-family: Arcade;
+  font-size: 18px;
+  text-shadow: 2px 2px 5px #000;
+}
