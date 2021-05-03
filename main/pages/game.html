@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="../styles/game.css" />
     <link rel="stylesheet" href="../styles/styles.css">
     <link rel="stylesheet" href="../styles/positions.css" />
+    <script src="../scripts/asset.js"></script>
+    <script src="../scripts/game.js"></script>
     <title>Pokémon T&H | Game</title>
   </head>
   <body>
@@ -29,7 +31,7 @@
 
     <section class="game">
 
-      <div class = "game-board">
+      <!--<div class = "game-board">
         <div class="wall"></div> <div class="wall"></div>
         <div class="wall"></div> <div class="wall"></div>
         <div class="wall"></div> <div class="wall"></div>
@@ -48,8 +50,12 @@
         <div class="wall"></div> <div class="wall"></div>
         <div class="wall"></div> <div class="wall"></div>
         <div class="wall"></div> <div class="wall"></div>  
-      </div>
-    
+      </div>-->
+      
+      <div class="main-wrapper">
+        <canvas id="demo" width="512" height="512"></canvas>
+      </div><!-- main wrapper -->
+
     <h1>Timer</h1>
     <p id="timer"></p>
     <script src="../scripts/timer.js"></script>
