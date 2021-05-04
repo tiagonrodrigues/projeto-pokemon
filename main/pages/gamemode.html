@@ -31,14 +31,21 @@
     <section class="game">
         <h1 id="welcome">Welcome Back, </h1>
         <p>Please select the Game Mode!</p>
-        <form>  
+        <div class="custom-select">  
           <select id = "myList" onchange = "favTutorial()" >  
-          <option> ---Choose mode--- </option>  
-          <option> Speedrun </option>  
-          <option> Ninja </option>  
-          <option> The Conqueror </option>  
-          </select>  
-          </form>  
+            <option value=""> Choose the game mode! </option>  
+            <option value=""> Speedrun </option>  
+            <option value=""> Ninja </option>  
+            <option value=""> The Conqueror </option>  
+          </select>
+        </div>
+        
+        <button class="gamebutton">
+          <a href="../pages/game.html">Play Now!</a>
+        </button>
+
+        <h2>LeaderBoard</h2>
+
     </section>
 
     <footer>
