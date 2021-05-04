@@ -275,3 +275,9 @@ Game.render = function () {
   // draw map top layer
   this._drawLayer(1);
 };
+
+window.onload = function gamemode(){
+  var modo = localStorage.getItem("modo");
+
+  document.getElementById("gmode").innerHTML = "Gamemode: " + modo;
+}
