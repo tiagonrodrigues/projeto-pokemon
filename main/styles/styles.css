@@ -443,6 +443,7 @@ footer {
     background-size: 400%;
     border-radius: 30px;
     transition: none;
+    pointer-events: auto;
 }
 
 a {
