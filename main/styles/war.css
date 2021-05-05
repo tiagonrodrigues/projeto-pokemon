@@ -7,8 +7,8 @@ body {
     font-family: Arcade;
     font-size: 20px;
   }
-  
-  .game {
+
+  .game2 {
     position: relative;
     background-image: url('http://bit.ly/pokemonbg');
     background-size: 100% 100%;
@@ -17,6 +17,7 @@ body {
     border-radius: 8px 8px 0 0;
     height: 480px;
     width: 800px;
+    margin: 0 auto;
   }
   
   .opponent {
@@ -31,6 +32,10 @@ body {
     width: 320px;
   }
   
+  .stats {
+    text-align: left;
+  }
+
   .name {
     font-size: 16px;
     margin-left: 5px;
@@ -77,6 +82,7 @@ body {
     color: #fff;
     height: 120px;
     width: 784px;
+    margin: 0 auto;
   }
   
   .box .message {
@@ -90,7 +96,6 @@ body {
     margin-top: 45px;
     float: left;
     width: 25%;
-    height: 100%;
   }
   .box .continue  button {
     position: relative;
@@ -121,6 +126,7 @@ body {
     float: right;
     width: 45%;
     height: 100%;
+    text-align: left;
   }
   
   .box .actions button {

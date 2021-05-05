@@ -9,11 +9,13 @@
       href="../images/ultraBall.ico"
       type="image/x-icon"
     />
-    <link rel="stylesheet" href="../styles/game.css" />
     <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="stylesheet" href="../styles/game.css" />
     <link rel="stylesheet" href="../styles/positions.css" />
+    <link rel="stylesheet" href="../styles/war.css">
     <script src="../scripts/asset.js"></script>
     <script src="../scripts/speedrun.js"></script>
+    <script src="../scripts/war.js"></script>
     <title>Pokémon T&H | Game - Speedrun</title>
   </head>
   <body>
@@ -30,15 +32,80 @@
     </header>
 
     <section class="game">
-      <div class="main-wrapper">
+
+      <div class="gamebox" hidden>
+        <div class="game2">
+          <div class="opponent">
+            <div class="stats">
+              <div class="top">
+                <div class="pokeballs">
+                  <div class="pokeball"></div>
+                  <div class="pokeball"></div>
+                  <div class="pokeball"></div>
+                  <div class="pokeball"></div>
+                  <div class="pokeball"></div>
+                </div>
+                <div class="hp-count"><a id = "apHP" >100</a></div>
+              </div>
+              <span class="name">
+                Pikachu
+              </span>
+              <span class="level">
+                25
+              </span>
+            </div>
+            <img class="pokemon" src="https://media.giphy.com/media/vc0z5hIqODyhO/giphy.gif" alt ="A sprite of pikachu" id = "photopika"/>
+          </div>
+          <div class="player">
+            <div class="stats">
+              <div class="top">
+                <div class="pokeballs">
+                  <div class="pokeball"></div>
+                  <div class="pokeball"></div>
+                  <div class="pokeball"></div>
+                  <div class="pokeball"></div>
+                  <div class="pokeball"></div>
+                </div>
+                <div class="hp-count"><a id = "myHP">100</a></div>
+              </div>
+              <span class="name">
+                Blastoise
+              </span>
+              <span class="level">
+                25
+              </span>
+            </div>
+            <img class="pokemon" src="http://bit.ly/blastoisegif" alt="A gif from blastoises back sprite" />
+          </div>
+        </div>
+      
+        <div class="box">
+          <div id = "message" class="message">
+            Roll the dice!
+          </div>
+          <div class="actions">
+            <div id = "my_message" class="message">
+                
+            </div>
+            <div id = "ap_message" class="message">
+                
+            </div>
+          </div>
+          <div class = "continue">
+            <button onclick = "roll_dice()">&#x1F3B2;</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="main-wrapper" hidden>
         <canvas id="demo" width="512" height="512"></canvas>
       </div>
 
-    <h1>Timer</h1>
-    <p id="timer"></p>
-    <script src="../scripts/timer.js"></script>
+      <h1>Timer</h1>
+      <p id="timer"></p>
+      <script src="../scripts/timer.js"></script>
 
-    <p id="gmode">Gamemode: </p>
+      <p id="gmode">Gamemode: </p>
 
     </section>
 

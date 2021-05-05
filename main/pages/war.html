@@ -6,63 +6,67 @@
   <link rel = "stylesheet" type = "text/css" href = "../styles/war.css" />
 </head>
 
-<div class="game">
-  <div class="opponent">
-    <div class="stats">
-      <div class="top">
-        <div class="pokeballs">
-          <div class="pokeball"></div>
-          <div class="pokeball"></div>
-          <div class="pokeball"></div>
-          <div class="pokeball"></div>
-          <div class="pokeball"></div>
+<div class="gamebox">
+  <div class="game2">
+    <div class="opponent">
+      <div class="stats">
+        <div class="top">
+          <div class="pokeballs">
+            <div class="pokeball"></div>
+            <div class="pokeball"></div>
+            <div class="pokeball"></div>
+            <div class="pokeball"></div>
+            <div class="pokeball"></div>
+          </div>
+          <div class="hp-count"><a id = "apHP" >100</a></div>
         </div>
-        <div class="hp-count"><a id = "apHP" >100</a></div>
+        <span class="name">
+          Pikachu
+        </span>
+        <span class="level">
+          25
+        </span>
       </div>
-      <span class="name">
-        Pikachu
-      </span>
-      <span class="level">
-        25
-      </span>
+      <img class="pokemon" src="https://media.giphy.com/media/vc0z5hIqODyhO/giphy.gif" alt ="A sprite of pikachu" id = "photopika"/>
     </div>
-    <img class="pokemon" src="https://media.giphy.com/media/vc0z5hIqODyhO/giphy.gif" alt ="A sprite of pikachu" id = "photopika"/>
-  </div>
-  <div class="player">
-    <div class="stats">
-      <div class="top">
-        <div class="pokeballs">
-          <div class="pokeball"></div>
-          <div class="pokeball"></div>
-          <div class="pokeball"></div>
-          <div class="pokeball"></div>
-          <div class="pokeball"></div>
+    <div class="player">
+      <div class="stats">
+        <div class="top">
+          <div class="pokeballs">
+            <div class="pokeball"></div>
+            <div class="pokeball"></div>
+            <div class="pokeball"></div>
+            <div class="pokeball"></div>
+            <div class="pokeball"></div>
+          </div>
+          <div class="hp-count"><a id = "myHP">100</a></div>
         </div>
-        <div class="hp-count"><a id = "myHP">100</a></div>
+        <span class="name">
+          Blastoise
+        </span>
+        <span class="level">
+          25
+        </span>
       </div>
-      <span class="name">
-        Blastoise
-      </span>
-      <span class="level">
-        25
-      </span>
-    </div>
-    <img class="pokemon" src="http://bit.ly/blastoisegif" alt="A gif from blastoises back sprite" />
-  </div>
-</div>
-<div class="box">
-  <div id = "message" class="message">
-    Roll the dice!
-  </div>
-  <div class="actions">
-    <div id = "my_message" class="message">
-        
-    </div>
-    <div id = "ap_message" class="message">
-        
+      <img class="pokemon" src="http://bit.ly/blastoisegif" alt="A gif from blastoises back sprite" />
     </div>
   </div>
-  <div class = "continue">
-    <button onclick = "roll_dice()">&#x1F3B2;</button>
+
+  <div class="box">
+    <div id = "message" class="message">
+      Roll the dice!
+    </div>
+    <div class="actions">
+      <div id = "my_message" class="message">
+          
+      </div>
+      <div id = "ap_message" class="message">
+          
+      </div>
+    </div>
+    <div class = "continue">
+      <button onclick = "roll_dice()">&#x1F3B2;</button>
+    </div>
   </div>
+
 </div>

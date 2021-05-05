@@ -17,10 +17,9 @@
   
    .game {
     background: url("../images/container-background.png");
-    background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    min-height: 100vh;
+    min-height: 150vh;
     text-align: center;
   }
   
@@ -43,6 +42,10 @@
     padding-left: 1em;
     padding-right: 1em;
     margin: 0 auto;
+}
+
+#demo {
+  margin-top: 30px;
 }
 
 #gmode {
