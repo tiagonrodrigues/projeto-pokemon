@@ -48,11 +48,11 @@ function roll_dice(){
         document.getElementById("apHP").innerHTML = new_apHP;
     }
 
-    var greenhp = " HP";
-    var result = greenhp.fontcolor("#33FF33");
-
     var reddmg = " Damage"
     var result2 = reddmg.fontcolor("#FF0000")
+
+    var greenhp = " HP";
+    var result = greenhp.fontcolor("#33FF33");
 
     document.getElementById("my_message").innerHTML = "Your attack took " + my_damage + result2;
     document.getElementById("ap_message").innerHTML = "You lost " + ap_damage + result;
