@@ -22,6 +22,7 @@ function roll_dice() {
   if (new_myHP <= 0) {
     document.getElementById("myHP").innerHTML = 0;
     alert("GAME OVER!");
+    localStorage.setItem("time", document.getElementById("timer").innerHTML);
     window.open("../pages/gamemode.html");
 
   }
@@ -36,6 +37,7 @@ function roll_dice() {
     var pok = localStorage.getItem("pokemon");
     var pok_mais = Number(pok) + 1;
     localStorage.setItem("pokemon", pok_mais);
+    localStorage.setItem("time", document.getElementById("timer").innerHTML);
     document.getElementById("game").hidden = false;
     document.getElementById("war").hidden = true;
     document.getElementById("myHP").innerHTML = 100;
