@@ -1,3 +1,8 @@
+/*y * 12 + x 
+6 *12 +3 = 75
+4 * 12 + 8 = 56
+7 * 12 + 7 = 91
+*/
 var map = {
   cols: 12,
   rows: 12,
@@ -47,6 +52,21 @@ var map = {
       false
     );
   },
+  ispokemon: function (x, y) {
+    var col = Math.floor(x / this.tsize);
+    var row = Math.floor(y / this.tsize);
+
+    // tiles 3 and 5 are solid -- the rest are walkable
+    // loop through all layers and return TRUE if any tile is solid
+    return this.layers.reduce(
+      function (res, layer, index) {
+        var tile = this.getTile(index, col, row);
+        var isSolid = tile === 9;
+        return res || isSolid;
+      }.bind(this),
+      false
+    );
+  },
   getCol: function (x) {
     return Math.floor(x / this.tsize);
   },
@@ -60,6 +80,7 @@ var map = {
     return row * this.tsize;
   },
 };
+
 
 function Camera(map, width, height) {
   this.x = 0;
@@ -149,10 +170,25 @@ Hero.prototype._collide = function (dirx, diry) {
     this.map.isSolidTileAtXY(left, top) ||
     this.map.isSolidTileAtXY(right, top) ||
     this.map.isSolidTileAtXY(right, bottom) ||
-    this.map.isSolidTileAtXY(left, bottom);
+    this.map.isSolidTileAtXY(left, bottom) ||
+    this.map.ispokemon(right, bottom) ||
+    this.map.ispokemon(left, bottom) ||
+    this.map.ispokemon(right, top) ||
+    this.map.ispokemon(left, top);
   if (!collision) {
     return;
   }
+
+  var pok =
+    this.map.ispokemon(right, bottom) ||
+    this.map.ispokemon(left, bottom) ||
+    this.map.ispokemon(right, top) ||
+    this.map.ispokemon(left, top);
+
+  if (pok) {
+    document.getElementById("game").hidden = true;
+  }
+
 
   if (diry > 0) {
     row = this.map.getRow(bottom);
