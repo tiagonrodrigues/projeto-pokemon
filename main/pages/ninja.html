@@ -12,10 +12,11 @@
     <link rel="stylesheet" href="../styles/game.css" />
     <link rel="stylesheet" href="../styles/styles.css">
     <link rel="stylesheet" href="../styles/positions.css" />
-    <script src="../scripts/gamemode.js"></script>
-    <title>Pokémon T&H | Welcome Back!</title>
+    <script src="../scripts/asset.js"></script>
+    <script src="../scripts/ninja.js"></script>
+    <title>Pokémon T&H | Game - Ninja</title>
   </head>
-  <body onload="username()">
+  <body>
     <header>
       <nav>
         <ul>
@@ -29,22 +30,15 @@
     </header>
 
     <section class="game">
-        <h1 id="welcome">Welcome Back, </h1>
-        <p>Please select the Game Mode!</p>
-        <div class="custom-select">  
-          <select id = "myList" onchange = "favTutorial()" >  
-            <option value=""> Choose the game mode! </option>  
-            <option value=""> Speedrun </option>  
-            <option value=""> Ninja </option>  
-            <option value=""> The Conqueror </option>  
-          </select>
-        </div>
-        
-        <button class="gamebutton">
-          <a href="#">Play Now!</a>
-        </button>
+      <div class="main-wrapper">
+        <canvas id="demo" width="512" height="512"></canvas>
+      </div>
 
-        <h2>LeaderBoard</h2>
+    <h1>Timer</h1>
+    <p id="timer"></p>
+    <script src="../scripts/timer.js"></script>
+
+    <p id="gmode">Gamemode: </p>
 
     </section>
 

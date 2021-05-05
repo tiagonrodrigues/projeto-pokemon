@@ -173,7 +173,7 @@ Game.load = function () {
   var modo = localStorage.getItem("modo");
   document.getElementById("gmode").innerHTML = "Gamemode: " + modo;
   return [
-    Loader.loadImage("tiles", "../images/tilesteste2.png"),
+    Loader.loadImage("tiles", "../images/tilespeedrun.png"),
     Loader.loadImage("hero", "../images/character.png"),
   ];
 };
