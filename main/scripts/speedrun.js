@@ -187,6 +187,7 @@ Hero.prototype._collide = function (dirx, diry) {
 
   if (pok) {
     document.getElementById("game").hidden = true;
+    document.getElementById("war").hidden = false;
   }
 
 
@@ -208,6 +209,7 @@ Hero.prototype._collide = function (dirx, diry) {
 Game.load = function () {
   var modo = localStorage.getItem("modo");
   document.getElementById("gmode").innerHTML = "Gamemode: " + modo;
+  localStorage.setItem("pokemon", "0");
   return [
     Loader.loadImage("tiles", "../images/tilespeedrun.png"),
     Loader.loadImage("hero", "../images/character.png"),
