@@ -1,5 +1,10 @@
+@font-face {
+  font-family: Arcade;
+  src: url(fonts/joystix\ monospace.ttf);
+}
+
 body {
-    font-family: monospace;
+    font-family: Arcade;
     font-size: 20px;
   }
   
@@ -26,6 +31,17 @@ body {
     width: 320px;
   }
   
+  .name {
+    font-size: 16px;
+    margin-left: 5px;
+  }
+
+  .level {
+    float: right;
+    font-size: 15px;
+    margin-top: 5px;
+  }
+
   .opponent .pokemon {
     position: absolute;
     bottom: 0;
@@ -67,11 +83,11 @@ body {
     position: relative;
     float: left;
     font-size: 24px;
-    width: 50%;
+    /* width: 50%; */
   }
   .box .continue {
     position: absolute;
-    margin-top: 30px;
+    margin-top: 45px;
     float: left;
     width: 25%;
     height: 100%;
@@ -83,7 +99,7 @@ body {
     border: 3px solid #888;
     border-radius: 4px;
     color: #fff;
-    font-family: monospace;
+    font-family: Arcade;
     font-size: 20px;
     line-height: 14px;
     margin: 4px;
@@ -102,8 +118,8 @@ body {
   
   .box .actions {
     position: relative;
-    float: left;
-    width: 50%;
+    float: right;
+    width: 45%;
     height: 100%;
   }
   
@@ -114,7 +130,7 @@ body {
     border: 3px solid #888;
     border-radius: 4px;
     color: #fff;
-    font-family: monospace;
+    font-family: Arcade;
     font-size: 20px;
     line-height: 14px;
     margin: 4px;
@@ -133,6 +149,11 @@ body {
     background: #555;
     border-color: #666;
   }
+
+  #ap_message {
+    top: 10px;
+  }
+
   .stats {
     background: #111;
     border: 2px solid black;
@@ -145,6 +166,7 @@ body {
     position: relative;
     display: inline-block;
     vertical-align: middle;
+    bottom: 2px;
   }
   
   .stats .pokeballs .pokeball {
@@ -157,14 +179,15 @@ body {
   }
   
   .stats .hp-count:before {
-    content: 'HP: '
+    content: 'HP: ';
   }
   
   .stats .hp-count {
     float: right;
+    color: rgb(0, 255, 0);
   }
-  
-  
+
+
   .stats .name {
     font-weight: bold;
   }
