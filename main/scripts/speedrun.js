@@ -186,7 +186,6 @@ Hero.prototype._collide = function (dirx, diry) {
     this.map.ispokemon(left, top);
 
   if (pok) {
-    alert("POKEMON");
     document.getElementById("game").hidden = true;
   }
 
