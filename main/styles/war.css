@@ -21,8 +21,8 @@ body {
   
   .opponent .stats {
     position: absolute;
-    top: 96px;
-    left: 40px;
+    top: 50px;
+    left: 35px;
     width: 320px;
   }
   
@@ -40,8 +40,8 @@ body {
   
   .player .stats {
     position: absolute;
-    top: 48px;
-    right: 40px;
+    top: 70px;
+    right: 35px;
     width: 320px;
   }
   
