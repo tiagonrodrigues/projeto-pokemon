@@ -10,7 +10,7 @@
       type="image/x-icon"
     />
     <link rel="stylesheet" href="../styles/game.css" />
-    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="stylesheet" href="../styles/styles.css" />
     <link rel="stylesheet" href="../styles/positions.css" />
     <script src="../scripts/gamemode.js"></script>
     <title>Pokémon T&H | Welcome Back!</title>
@@ -29,82 +29,81 @@
     </header>
 
     <section class="game">
-        <h1 id="welcome">Welcome Back, </h1>
-        <p>Please select the Game Mode!</p>
-        <div class="custom-select">  
-          <select id = "myList" onchange = "favTutorial()" >  
-            <option value=""> Choose the game mode! </option>  
-            <option value=""> Speedrun </option>  
-            <option value=""> Ninja </option>  
-            <option value=""> The Conqueror </option>  
-          </select>
-        </div>
-        
-        <button onclick="mode()" class="gamebutton">
-          <a id="play">Play Now!</a>
-        </button>
+      <h1 id="welcome">Welcome Back,</h1>
+      <p>Please select the Game Mode!</p>
+      <div class="custom-select">
+        <select id="myList" onchange="favTutorial()">
+          <option value="">Choose the game mode!</option>
+          <option value="">Speedrun</option>
+          <option value="">Ninja</option>
+          <option value="">The Conqueror</option>
+        </select>
+      </div>
 
-        <h2>LeaderBoard</h2>
+      <button onclick="mode()" class="gamebutton">
+        <a id="play">Play Now!</a>
+      </button>
 
-        <div class="leaderboard">
-          <header>
-            <img src="../images/Psquirtle.png " alt="">
-            <nav>
-              <a href="" class="active">Speedrun</a>
-              <a href="">Ninja</a>
-              <a href="">Conqueror</a>
-            </nav>
-          </header>
-          <table>
-            <thead>
-              <tr>
-                <th class="rank"></th>
-                <th class="nick">Username</th>
-                <th class="sp">Pokémons</th>
-                <th class="kd">Time</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td class="rank">1</td>
-                <td class="nick"><a id="USER"></a></td>
-                <td class="sp"><a id="POKEMON"> </a></td>
-                <td class="kd"><a id="TIME"> </a></td>
-              </tr>
-              <tr>
-                <td class="rank">2</td>
-                <td class="nick"><a id="USER"></a></td>
-                <td class="sp"><a id="POKEMON"> </a></td>
-                <td class="kd"><a id="TIME"> </a></td>
-              </tr>
-              <tr>
-                <td class="rank">3</td>
-                <td class="nick"><a id="USER"></a></td>
-                <td class="sp"><a id="POKEMON"> </a></td>
-                <td class="kd"><a id="TIME"> </a></td>
-              </tr>
-              <tr>
-                <td class="rank">4</td>
-                <td class="nick"><a id="USER"></a></td>
-                <td class="sp"><a id="POKEMON"> </a></td>
-                <td class="kd"><a id="TIME"> </a></td>
-              </tr>
-              <tr>
-                <td class="rank">5</td>
-                <td class="nick"><a id="USER"></a></td>
-                <td class="sp"><a id="POKEMON"> </a></td>
-                <td class="kd"><a id="TIME"> </a></td>
-              </tr>
-              <tr>
-                <td class="rank">6</td>
-                <td class="nick"><a id="USER"></a></td>
-                <td class="sp"><a id="POKEMON"> </a></td>
-                <td class="kd"><a id="TIME"> </a></td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
+      <h2>LeaderBoard</h2>
 
+      <div class="leaderboard">
+        <header>
+          <img src="../images/Psquirtle.png " alt="" />
+          <nav>
+            <a href="" class="active">Speedrun</a>
+            <a href="">Ninja</a>
+            <a href="">Conqueror</a>
+          </nav>
+        </header>
+        <table>
+          <thead>
+            <tr>
+              <th class="rank"></th>
+              <th class="nick">Username</th>
+              <th class="sp">Pokémons</th>
+              <th class="kd">Time</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="rank">1</td>
+              <td class="nick"><a id="USER"></a></td>
+              <td class="sp"><a id="POKEMON"> </a></td>
+              <td class="kd"><a id="TIME"> </a></td>
+            </tr>
+            <tr>
+              <td class="rank">2</td>
+              <td class="nick"><a></a></td>
+              <td class="sp"><a> </a></td>
+              <td class="kd"><a> </a></td>
+            </tr>
+            <tr>
+              <td class="rank">3</td>
+              <td class="nick"><a></a></td>
+              <td class="sp"><a> </a></td>
+              <td class="kd"><a> </a></td>
+            </tr>
+            <tr>
+              <td class="rank">4</td>
+              <td class="nick"><a></a></td>
+              <td class="sp"><a> </a></td>
+              <td class="kd"><a> </a></td>
+            </tr>
+            <tr>
+              <td class="rank">5</td>
+              <td class="nick"><a></a></td>
+              <td class="sp"><a> </a></td>
+              <td class="kd"><a> </a></td>
+            </tr>
+            <tr>
+              <td class="rank">6</td>
+              <td class="nick"><a></a></td>
+              <td class="sp"><a> </a></td>
+              <td class="kd"><a> </a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </section>
 
     <footer>

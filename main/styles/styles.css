@@ -436,14 +436,14 @@ footer {
 }
 
 .gamebutton a {
-    width: 165px;
-    font-size: 16px;
-    font-family: Arcade;
-    background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
-    background-size: 400%;
-    border-radius: 30px;
-    transition: none;
-    pointer-events: auto;
+  width: 165px;
+  font-size: 16px;
+  font-family: Arcade;
+  background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+  background-size: 400%;
+  border-radius: 30px;
+  transition: none;
+  pointer-events: auto;
 }
 
 a {

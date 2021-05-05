@@ -30,22 +30,31 @@
     <section id="login">
       <div id="loginBox">
         <h1>Register</h1>
-        
+
         <form autocomplete="off">
-          
           <div class="inputBox">
             <input type="text" required="" id="username" />
             <label>Username</label>
           </div>
-          
+
           <div class="inputBox">
-            <input type="password" name="password" required="" id="pw" size="15" maxlength="100" onkeyup="return passwordChanged()" />
+            <input
+              type="password"
+              name="password"
+              required=""
+              id="pw"
+              size="15"
+              maxlength="100"
+              onkeyup="return passwordChanged()"
+            />
             <label>Password</label>
-          </div>       
-          
-          <div class="strengthPassw"><span id="strength">Type Password</span></div>
+          </div>
+
+          <div class="strengthPassw">
+            <span id="strength">Type Password</span>
+          </div>
           <div class="forgotPassw"><a href="#">Forgot Password?</a></div>
-          
+
           <button
             class="botao"
             type="submit"
@@ -55,12 +64,11 @@
           >
             Gotta Catch 'Em All
           </button>
-          
+
           <div class="createAcc">
             Already a Trainer? <a href="login.html">Login Now</a>
           </div>
         </form>
-      
       </div>
     </section>
 
