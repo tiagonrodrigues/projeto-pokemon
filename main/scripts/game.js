@@ -15,7 +15,7 @@ var map = {
     3, 1, 2, 1, 1, 1, 1, 1, 1, 2, 1, 3,
     3, 1, 2, 2, 2, 2, 2, 2, 2, 2, 1, 3,
     3, 3, 5, 3, 3, 3, 3, 3, 3, 3, 3, 3
-], [
+  ], [
     4, 0, 3, 3, 3, 3, 3, 3, 3, 3, 0, 4,
     4, 0, 0, 5, 5, 0, 0, 0, 0, 5, 0, 4,
     4, 6, 0, 5, 5, 0, 0, 0, 0, 0, 0, 4,
@@ -28,7 +28,7 @@ var map = {
     4, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4,
     4, 6, 0, 4, 4, 4, 4, 4, 4, 4, 4, 4,
     4, 6, 5, 4, 4, 4, 4, 4, 4, 4, 4, 4
-]],
+  ]],
   getTile: function (layer, col, row) {
     return this.layers[layer][row * map.cols + col];
   },
@@ -170,6 +170,8 @@ Hero.prototype._collide = function (dirx, diry) {
 };
 
 Game.load = function () {
+  var modo = localStorage.getItem("modo");
+  document.getElementById("gmode").innerHTML = "Gamemode: " + modo;
   return [
     Loader.loadImage("tiles", "../images/tilesteste2.png"),
     Loader.loadImage("hero", "../images/character.png"),
@@ -194,6 +196,7 @@ Game.update = function (delta) {
   // handle hero movement with arrow keys
   var dirx = 0;
   var diry = 0;
+
   if (Keyboard.isDown(Keyboard.LEFT)) {
     dirx = -1;
   } else if (Keyboard.isDown(Keyboard.RIGHT)) {
@@ -275,9 +278,3 @@ Game.render = function () {
   // draw map top layer
   this._drawLayer(1);
 };
-
-window.onload = function gamemode(){
-  var modo = localStorage.getItem("modo");
-
-  document.getElementById("gmode").innerHTML = "Gamemode: " + modo;
-}
