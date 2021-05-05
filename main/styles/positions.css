@@ -306,3 +306,9 @@ footer {
   padding: 15px;
   text-align: center;
 }
+
+.gamebutton a {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  line-height: 40px;
+}

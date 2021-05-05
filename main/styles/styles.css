@@ -434,3 +434,23 @@ footer {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif, Courier,
     monospace;
 }
+
+.gamebutton a {
+    width: 165px;
+    font-size: 16px;
+    font-family: Arcade;
+    background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+    background-size: 400%;
+    border-radius: 30px;
+    transition: none;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+a:link {
+  color: white;
+}
