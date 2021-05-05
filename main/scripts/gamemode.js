@@ -1,6 +1,3 @@
-function username() {
-  document.getElementById("welcome").innerHTML = "Welcome back, " + localStorage.getItem("username") + "!";
-}
 
 function favTutorial() {  
   var mylist = document.getElementById("myList");  
@@ -18,4 +15,16 @@ function mode(){
   if(mode == "The Conqueror"){
     window.open("../pages/conqueror.html");
   }
+}
+
+window.onload = function() {
+  var user = localStorage.getItem("username");
+  var pok = localStorage.getItem("pokemon");
+  var time = localStorage.getItem("time");
+
+  document.getElementById("welcome").innerHTML = "Welcome back, " + user + "!";
+
+  document.getElementById("USER").innerHTML = user;
+  document.getElementById("POKEMON").innerHTML = pok;
+  document.getElementById("TIME").innerHTML = time;
 }
