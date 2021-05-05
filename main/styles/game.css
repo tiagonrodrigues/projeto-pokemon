@@ -19,7 +19,8 @@
     background: url("../images/container-background.png");
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 90vh;
+    background-attachment: fixed;
+    min-height: 100vh;
     text-align: center;
   }
   
