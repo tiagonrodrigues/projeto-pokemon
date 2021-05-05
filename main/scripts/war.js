@@ -33,7 +33,16 @@ function roll_dice(){
         var img = document.getElementById('photopika');
         img.src="https://media.giphy.com/media/3oKIPsoRmzEfUUe8JG/giphy.gif";
         alert("You won the battle!");
-        window.open("../pages/game.html");
+        var mode = localStorage.getItem("modo");
+        if(mode == "Speedrun"){
+          window.open("../pages/speedrun.html");
+        }
+        if(mode == "Ninja"){
+          window.open("../pages/ninja.html");
+        }
+        if(mode == "The Conqueror"){
+          window.open("../pages/conqueror.html");
+        }
     }
     else{
         document.getElementById("apHP").innerHTML = new_apHP;
