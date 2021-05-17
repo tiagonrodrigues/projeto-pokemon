@@ -155,7 +155,7 @@ section {
 }
 
 #wiki {
-  min-height: 150vh;
+  min-height: 190vh;
   background-attachment: fixed;
 }
 
@@ -172,6 +172,7 @@ section {
 .gameDesc {
   display: flex;
   justify-content: center;
+  margin-top: -15px;
 }
 
 .descBox {
@@ -246,7 +247,7 @@ section {
 }
 
 #aboutTeam {
-  min-height: 95vh;
+  min-height: 90vh;
 }
 
 #aboutTeam h1 {

@@ -19,7 +19,7 @@
   background: url("../images/container-background.png");
   background-size: cover;
   background-attachment: fixed;
-  min-height: 150vh;
+  min-height: 140vh;
   text-align: center;
 }
 
@@ -31,16 +31,18 @@
   text-shadow: 2px 2px 5px #000;
 }
 
+.gamebox {
+  font-size: 20px;
+}
+
 #timer {
   font-family: Arcade;
-  font-size: 48px;
+  font-size: 38px;
   text-shadow: 2px 2px 5px #000;
 }
 
 .main-wrapper {
   width: 512px;
-  padding-left: 1em;
-  padding-right: 1em;
   margin: 0 auto;
 }
 
@@ -212,5 +214,3 @@ th {
 td {
   padding: 1rem 1rem;
 }
-
-/* #1f232c */
