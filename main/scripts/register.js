@@ -11,11 +11,11 @@ function store() {
     if (username.value == "" && pw.value == "") throw "Fields empty!";
     if (username.value == "") throw "Username empty!";
     if (pw.value == "") throw "Password empty!";
-    if (username.value == Local_user) throw "The username already exists!";
+    if (username.value == Local_user) throw "This username already exists!";
 
     localStorage.setItem("username", username.value);
     localStorage.setItem("pw", pw.value);
-    alert("Success! Account created.");
+    alert("Success! Your account was created.");
     window.open("../pages/login.html");
   } catch (err) {
     alert(err);
@@ -37,7 +37,7 @@ function passwordChanged() {
   if (pw.value.length == 0) {
     strength.innerHTML = "";
   } else if (false == enoughRegex.test(pw.value)) {
-    strength.innerHTML = "More Characters";
+    strength.innerHTML = "Too short";
   } else if (strongRegex.test(pw.value)) {
     strength.innerHTML = '<span style="color:green">Strong!</span>';
   } else if (mediumRegex.test(pw.value)) {
