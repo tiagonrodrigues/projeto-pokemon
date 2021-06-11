@@ -12,6 +12,10 @@
   }
 }
 
+audio::-internal-media-controls-download-button { 
+  display:none; 
+} 
+
 nav {
   background: black;
   font-family: Arcade;
