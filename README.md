@@ -22,3 +22,7 @@ Top 10 dos tempos de cada jogador.
 ## Credits:
 
 <div>All Icons were made by <a href="https://www.flaticon.com/authors/roundicons-freebies" title="Roundicons Freebies">Roundicons Freebies</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+
+# Project Pokémon T&H
+
+<a href="https://tiagonrodrigues.github.io/projeto-pokemon/" >Acess it here!</a>
