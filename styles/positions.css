@@ -13,7 +13,7 @@ nav ul {
 }
 
 nav li {
-  margin: 0 10px 0 0;
+  margin: 0 0 0 10px;
   display: inline-block;
 }
 
@@ -100,7 +100,7 @@ section {
 }
 
 #login {
-  min-height: 90vh;
+  height: 100vh;
 }
 
 #loginBox {
@@ -247,7 +247,7 @@ section {
 }
 
 #aboutTeam {
-  min-height: 90vh;
+  height: 90vh;
 }
 
 #aboutTeam h1 {
