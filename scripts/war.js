@@ -21,8 +21,9 @@ function roll_dice() {
 
   if (new_myHP <= 0) {
     document.getElementById("myHP").innerHTML = 0;
-    alert("GAME OVER!");
+    alert("You lost! GAME OVER!");
     localStorage.setItem("time", document.getElementById("timer").innerHTML);
+    window.close();
     window.open("../pages/gamemode.html");
   } else {
     document.getElementById("myHP").innerHTML = new_myHP;
