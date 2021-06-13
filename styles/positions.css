@@ -83,10 +83,6 @@ section {
   margin-top: 2cm;
 }
 
-#aboutGame video {
-  margin-bottom: 2cm;
-}
-
 #features {
   margin-top: 40px;
 }
@@ -97,6 +93,11 @@ section {
 
 #features figure figcaption {
   margin-top: 10px;
+}
+
+#nintendo {
+  text-align: center;
+  margin-top: 5px;
 }
 
 #login {
@@ -229,7 +230,7 @@ section {
 .card-stats {
   display: flex;
   justify-content: space-between;
-  padding: 2rem;
+  padding: 1.95rem;
   position: absolute;
   bottom: 0;
 }
