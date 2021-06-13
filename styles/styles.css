@@ -205,7 +205,7 @@ section {
   font-style: italic;
   text-shadow: 1px 1px 3px #000;
   color: aqua;
-  border-bottom-style: solid 1px;
+  border-bottom-style: solid;
   border-bottom-width: 1px;
   border-color: aqua;
 }
