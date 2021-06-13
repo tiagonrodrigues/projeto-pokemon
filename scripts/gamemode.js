@@ -7,12 +7,15 @@ function favTutorial() {
 function mode(){
   var mode = localStorage.getItem("modo");
   if(mode == "Speedrun"){
+    window.close();
     window.open("../pages/speedrun.html");
   }
   if(mode == "Ninja"){
+    window.close();
     window.open("../pages/ninja.html");
   }
   if(mode == "The Conqueror"){
+    window.close();
     window.open("../pages/conqueror.html");
   }
 }
