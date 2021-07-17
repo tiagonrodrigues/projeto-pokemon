@@ -21,10 +21,10 @@ function roll_dice() {
 
   if (new_myHP <= 0) {
     document.getElementById("myHP").innerHTML = 0;
-    alert("You lost! GAME OVER!");
+    alert("You lost. GAME OVER!");
     localStorage.setItem("time", document.getElementById("timer").innerHTML);
     window.close();
-    window.open("../pages/gamemode.html");
+    window.open("../pages/gameover.html");
   } else {
     document.getElementById("myHP").innerHTML = new_myHP;
     document.getElementById("my_message").innerHTML =
