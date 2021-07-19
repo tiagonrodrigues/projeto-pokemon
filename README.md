@@ -25,4 +25,4 @@ Top 10 dos tempos de cada jogador.
 
 # Project Pokémon T&H
 
-<a href="https://tiagonrodrigues.github.io/projeto-pokemon/" >Acess it here!</a>
+<a href="https://tiagonrodrigues.github.io/PokemonTH/" >Acess it here!</a>
