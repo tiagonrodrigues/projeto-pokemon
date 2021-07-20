@@ -18,6 +18,9 @@ audio::-internal-media-controls-download-button {
 
 nav {
   background: black;
+}
+
+nav ul {
   font-family: Arcade;
   font-size: 105%;
 }
@@ -26,12 +29,10 @@ nav li {
   color: white;
 }
 
-nav .logo a {
-  background-image: url("../images/pokeball-logo.png");
-  background-size: 80px;
-  background-repeat: no-repeat;
+nav .logo {
   height: 80px;
   width: 80px;
+  line-height: 10000px;
 }
 
 nav .playbutton a {
@@ -50,21 +51,21 @@ nav .playbutton a:hover {
   text-decoration: none;
 }
 
-nav a {
+nav li a {
   color: white;
   text-decoration: none;
   transition: 0.5s;
 }
 
-nav a:visited {
+nav li a:visited {
   text-decoration: none;
 }
 
-nav a:active {
+nav li a:active {
   color: aqua;
 }
 
-nav a:hover {
+nav li a:hover {
   text-decoration: underline;
   font-size: 125%;
   transition: 0.5s;
