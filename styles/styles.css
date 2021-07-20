@@ -14,10 +14,13 @@
 
 audio::-internal-media-controls-download-button { 
   display: none; 
-} 
+}
 
 nav {
   background: black;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 1) 0 0 25px;
+  position: relative;
 }
 
 nav ul {
@@ -48,6 +51,7 @@ nav .playbutton a {
 nav .playbutton a:hover {
   animation: animate 8s linear infinite;
   font-size: 135%;
+  transition: 0.5s;
   text-decoration: none;
 }
 
