@@ -13,13 +13,17 @@
     <link rel="shortcut icon" href="images/ultraBall.ico" type="image/x-icon" />
     <link rel="stylesheet" href="styles/styles.css" />
     <link rel="stylesheet" href="styles/positions.css" />
+    <script src="https://kit.fontawesome.com/7570310c16.js" crossorigin="anonymous"></script>
     <title>Pokémon T&H | Welcome!</title>
   </head>
   <body>
     <header>
       <nav>
         <img class="logo" src="images/pokeball-logo.png" alt="Logo">
-        <ul>
+        <button class="hamburguer" id="hamburguer">
+          <i class="fas fa-bars"></i>
+        </button>
+        <ul class="nav-ul">
           <li><a href="index.html">Home</a></li>
           <li><a href="pages/login.html">Login</a></li>
           <li><a href="pages/wiki.html">Wiki</a></li>
@@ -43,11 +47,13 @@
           more than 700 creatures that inhabit the Pokémon universe.
         </p>
 
-        <p>Official Game Music</p>
-        <audio controls loop>
-          <source src="audio/PokémonRedAndBlue.mp3" />
-          Your browser does not support the audio element.
-        </audio>
+        <div class="home-audio">
+          <p>Official Game Music</p>
+          <audio controls loop>
+            <source src="audio/PokémonRedAndBlue.mp3" />
+            Your browser does not support the audio element.
+          </audio>
+        </div>
       </div>
     </div>
 
