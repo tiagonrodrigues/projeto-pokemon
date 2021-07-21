@@ -16,8 +16,8 @@ function store() {
     localStorage.setItem("username", username.value);
     localStorage.setItem("pw", pw.value);
     alert("Success! Your account was created. You will be redirected to the Login page.");
-    window.close();
     window.open("../pages/login.html");
+    open(location, '_self').close();
   } catch (err) {
     alert(err);
   }

@@ -16,8 +16,8 @@ function validar() {
     if (userPw.value == "") throw "Password empty!";
     if (userName.value == storedName && userPw.value == storedPw) {
       alert("You are logged in.");
-      window.close();
       window.open("../pages/gamemode.html");
+      open(location, '_self').close();
     } else {
       throw "Your username or password may be incorrect, please try again.";
     }
