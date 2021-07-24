@@ -1,26 +1,25 @@
+function favTutorial() {
+  var mylist = document.getElementById("myList");
+  localStorage.setItem("modo", mylist.options[mylist.selectedIndex].text);
+}
 
-function favTutorial() {  
-  var mylist = document.getElementById("myList");  
-  localStorage.setItem("modo", mylist.options[mylist.selectedIndex].text );  
-  }  
-
-function mode(){
+function mode() {
   var mode = localStorage.getItem("modo");
-  if(mode == "Speedrun"){
+  if (mode == "Speedrun") {
     window.close();
     window.open("../pages/speedrun.html");
   }
-  if(mode == "Ninja"){
+  if (mode == "Ninja") {
     window.close();
     window.open("../pages/ninja.html");
   }
-  if(mode == "The Conqueror"){
+  if (mode == "The Conqueror") {
     window.close();
     window.open("../pages/conqueror.html");
   }
 }
 
-window.onload = function() {
+window.onload = function () {
   var user = localStorage.getItem("username");
   var pok = localStorage.getItem("pokemon");
   var time = localStorage.getItem("time");

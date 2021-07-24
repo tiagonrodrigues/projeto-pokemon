@@ -90,12 +90,14 @@ body {
   font-size: 24px;
   /* width: 50%; */
 }
+
 .box .continue {
   position: absolute;
   margin-top: 45px;
   float: left;
   width: 25%;
 }
+
 .box .continue button {
   position: relative;
   float: left;
@@ -110,6 +112,7 @@ body {
   padding: 16px;
   outline: none !important;
 }
+
 .box .continue button:hover {
   background: #777;
   border-color: #999;

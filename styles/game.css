@@ -134,12 +134,10 @@ h2 {
   position: absolute;
   bottom: 0;
   font-size: 0.9rem;
-  background: linear-gradient(
-    to bottom,
-    transparent,
-    transparent 10%,
-    rgba(22, 22, 22, 0.5)
-  );
+  background: linear-gradient(to bottom,
+      transparent,
+      transparent 10%,
+      rgba(22, 22, 22, 0.5));
 }
 
 .leaderboard nav a {
@@ -157,7 +155,7 @@ h2 {
   margin-left: 3rem;
 }
 
-.leaderboard nav a + a {
+.leaderboard nav a+a {
   margin-left: 1rem;
 }
 

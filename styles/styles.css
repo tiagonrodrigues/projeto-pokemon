@@ -7,13 +7,14 @@
   0% {
     background-position: 0%;
   }
+
   100% {
     background-position: 400%;
   }
 }
 
-audio::-internal-media-controls-download-button { 
-  display: none; 
+audio::-internal-media-controls-download-button {
+  display: none;
 }
 
 nav {
@@ -160,7 +161,7 @@ section {
 
 #aboutGame #nintendo {
   font-size: small;
-  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: rgb(184, 184, 184);
 }
 
@@ -202,8 +203,8 @@ section {
   transition: 0.5s;
 }
 
-.inputBox input:focus ~ label,
-.inputBox input:valid ~ label {
+.inputBox input:focus~label,
+.inputBox input:valid~label {
   font-size: 12px;
   color: aquamarine;
 }
@@ -503,7 +504,7 @@ a:link {
     display: block;
     line-height: 10px;
   }
-  
+
   .show {
     display: flex;
   }
@@ -529,17 +530,17 @@ a:link {
   #home #homeContent h1 {
     font-size: 100%;
   }
-  
+
   #home #homeContent p {
     font-size: 75%;
     padding: 0px 15% 0;
     margin-top: 45px;
   }
-  
+
   .home-audio {
     display: none;
   }
-  
+
   #aboutGame h2 {
     font-size: 100%;
   }

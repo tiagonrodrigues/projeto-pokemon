@@ -10,11 +10,12 @@ nav {
 nav .logo {
   margin-left: 35px;
   vertical-align: middle;
+
 }
 
 nav ul {
   display: inline-block;
-  margin: 10px 0 0 -10px; 
+  margin: 10px 0 0 -10px;
 }
 
 nav ul li {
@@ -130,8 +131,8 @@ section {
   padding: 50px 0;
 }
 
-.inputBox input:focus ~ label,
-.inputBox input:valid ~ label {
+.inputBox input:focus~label,
+.inputBox input:valid~label {
   top: -18px;
   left: 0;
 }
