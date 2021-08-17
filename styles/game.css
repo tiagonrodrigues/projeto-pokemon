@@ -16,7 +16,7 @@
 }
 
 .game {
-  background: url("../images/container-background.png");
+  background: url("../images/bckground-gamemode.png");
   background-size: cover;
   background-attachment: fixed;
   min-height: 140vh;

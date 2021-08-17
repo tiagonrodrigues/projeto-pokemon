@@ -111,7 +111,7 @@ section {
 }
 
 #home {
-  background: url("../images/container-background.png");
+  background: url("../images/bckground-container.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -179,7 +179,7 @@ section {
 /* -------- LOGIN/REGISTER -------- */
 
 #login {
-  background: url("../images/pokemon-sword-and-shield.jpg");
+  background: url("../images/bckground-login.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -264,7 +264,7 @@ section {
 /* -------- WIKI -------- */
 
 #wiki {
-  background: url("../images/pokeballBackground.jpg");
+  background: url("../images/bckground-wiki.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
