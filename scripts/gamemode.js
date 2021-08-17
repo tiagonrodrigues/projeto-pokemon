@@ -29,4 +29,4 @@ window.onload = function () {
   document.getElementById("USER").innerHTML = user;
   document.getElementById("POKEMON").innerHTML = pok;
   document.getElementById("TIME").innerHTML = time;
-}
+};
