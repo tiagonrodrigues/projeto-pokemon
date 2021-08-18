@@ -174,7 +174,7 @@ var map = {
     document.getElementById("gmode").innerHTML = "Gamemode: " + modo;
     return [
       Loader.loadImage("tiles", "../images/tileninja.png"),
-      Loader.loadImage("hero", "../images/character.png"),
+      Loader.loadImage("hero", "../images/game-character.png"),
     ];
   };
   

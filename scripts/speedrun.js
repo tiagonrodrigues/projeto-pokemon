@@ -207,7 +207,7 @@ Game.load = function () {
   localStorage.setItem("pokemon", "0");
   return [
     Loader.loadImage("tiles", "../images/tilespeedrun.png"),
-    Loader.loadImage("hero", "../images/character.png"),
+    Loader.loadImage("hero", "../images/game-character.png"),
   ];
 };
 
