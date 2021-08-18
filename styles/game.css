@@ -31,6 +31,14 @@
   text-shadow: 2px 2px 5px #000;
 }
 
+.game p {
+  color: #fff;
+  font-family: Arcade;
+  letter-spacing: 2px;
+  font-size: 15px;
+  text-shadow: 15px 15px 20px #000;
+}
+
 .gamebox {
   font-size: 20px;
 }
@@ -93,7 +101,7 @@ h2 {
 
 .leaderboard {
   max-width: 25rem;
-  margin: 5rem auto;
+  margin: 2rem auto;
   border-radius: 1rem;
   box-shadow: 2px 2px 16px 1px #aaa;
   font-family: sans-serif;
@@ -110,7 +118,7 @@ h2 {
   text-transform: uppercase;
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
-  height: 14rem;
+  height: 18rem;
   position: relative;
 }
 
@@ -134,6 +142,10 @@ h2 {
   position: absolute;
   bottom: 0;
   font-size: 0.9rem;
+  height: 18rem;
+  border-radius: 15px;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
   background: linear-gradient(to bottom,
       transparent,
       transparent 10%,
